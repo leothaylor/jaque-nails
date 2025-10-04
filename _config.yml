@@ -1,61 +1,30 @@
-# ==========================
-#  JAQUELINE LOPES — NAIL DESIGNER
-#  Configuração do tema Agency (Jekyll) para GitHub Pages
-# ==========================
-
-remote_theme: raviriley/agency-jekyll-theme
-
-# --- Endereços do site (Project Pages) ---
-url: "https://leothaylor.github.io"
-baseurl: "/jaque-nails"
-
-# --- Metadados principais ---
+# --- Site basics ---
 title: "Jaqueline Lopes — Nail Designer"
-description: "Especialista em fibra de vidro natural, blindagem e alongamentos. Transforme suas unhas e sua autoestima!"
-author: "Jaqueline Lopes"
+email: "21967671257"
+description: "Alongamento de fibra de vidro, blindagem e manicure estética."
+url: "https://leothaylor.github.io"
+baseurl: "/jaque-nails"   # nome do repositório
 
-# --- Contatos ---
-email: "contato@exemplo.com"     # pode trocar por e-mail dela se quiser
-phone: "+55 21 96767-1257"
+# --- Locale / idioma ---
+locale: "pt-BR"           # chave usada para ler _data/sitetext.yml
 
-# --- Redes ---
-social:
-  instagram: "https://www.instagram.com/unhasporjaquelopes/"
-  whatsapp: "https://wa.me/5521967671257"
-  tiktok: ""
-  facebook: ""
-
-# --- Informações de negócio ---
-location: "JJD Studio Beauty, Rio de Janeiro/RJ"
-business_hours: "Seg–Sáb • 09:00–19:00"
-
-# --- Idioma e fuso ---
-lang: "pt-BR"
-timezone: "America/Sao_Paulo"
-
-# --- SEO/Analytics ---
-google_analytics: ""
-# image: "/jaque-nails/assets/img/og-cover.jpg"
-
-# --- Build ---
+# --- Theme config padrão do Agency (não mude se não souber) ---
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# --- Inclusões/Exclusões ---
-include: ["_pages"]
-exclude:
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE"
-  - "node_modules"
-  - "vendor"
-  - ".bundle"
-  - "package.json"
-  - "package-lock.json"
+# Imagem do topo (você já trocou o arquivo em assets/img/header-bg.jpg)
+# Se quiser outra, troque o próprio arquivo mantendo o nome.
 
-# --- Variáveis livres ---
-whatsapp_cta_text: "Agendar pelo WhatsApp"
-instagram_cta_text: "Ver Instagram"
-precos_visao_geral: "Alongamento em gel | Fibra de vidro | Blindagem | Nail Art"
+# Opções diversas do tema
+collections:
+  portfolio:
+    output: true
+
+# Social (opcional)
+author:
+  name: "Jaqueline Lopes"
+  instagram: "https://www.instagram.com/unhasporjaquelopes/"
+  whatsapp: "https://api.whatsapp.com/send?phone=5521967671257"
