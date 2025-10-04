@@ -1,30 +1,22 @@
-# --- Site basics ---
 title: "Jaqueline Lopes — Nail Designer"
-email: "21967671257"
-description: "Alongamento de fibra de vidro, blindagem e manicure estética."
 url: "https://leothaylor.github.io"
-baseurl: "/jaque-nails"   # nome do repositório
+baseurl: "/jaque-nails"      # <- MUITO IMPORTANTE
+locale: "pt-BR"
 
-# --- Locale / idioma ---
-locale: "pt-BR"           # chave usada para ler _data/sitetext.yml
+theme: jekyll-theme-primer
 
-# --- Theme config padrão do Agency (não mude se não souber) ---
-markdown: kramdown
+# Plugins padrão do Pages (não mude)
 plugins:
-  - jekyll-include-cache
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 
-# Imagem do topo (você já trocou o arquivo em assets/img/header-bg.jpg)
-# Se quiser outra, troque o próprio arquivo mantendo o nome.
-
-# Opções diversas do tema
-collections:
-  portfolio:
-    output: true
-
-# Social (opcional)
-author:
-  name: "Jaqueline Lopes"
-  instagram: "https://www.instagram.com/unhasporjaquelopes/"
-  whatsapp: "https://api.whatsapp.com/send?phone=5521967671257"
+# Caso o tema/partials usem esses dados
+description: "Especialista em Fibra de Vidro e blindagem. JJD Studio Beauty."
