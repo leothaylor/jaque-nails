@@ -1,35 +1,16 @@
 pt-BR:
+  header:
+    title: "Jaqueline Lopes — Nail Designer"
+    text: "Especialista em Fibra de Vidro e Blindagem"
   services:
     title: "SERVIÇOS"
     text: "Especialista em Fibra de Vidro e Blindagem."
-    section: services
-    list:
-      - title: "Fibra de Vidro"
-        desc: "Alongamento resistente e natural."
-        icon: "gem"
-      - title: "Blindagem"
-        desc: "Proteção e brilho na unha natural."
-        icon: "shield-alt"
-
   portfolio:
     title: "PORTFÓLIO"
     text: "Alguns resultados recentes."
-    section: portfolio
-
   about:
     title: "SOBRE"
-    text: ""
-    section: about
-    body: >
-      Jaqueline Lopes é Nail Designer no JJD Studio Beauty, especialista em fibra de vidro.
-
-  timeline:
-    title: "Linha do tempo"
-    text: ""
-    section: timeline
-
+    text: "JJD Studio Beauty. Técnica em fibra de vidro e blindagem."
   contact:
     title: "CONTATO"
-    text: "Agende seu horário:"
-    section: contact
-    phone: "(21) 96767-1257"
+    text: "Agende pelo WhatsApp"
