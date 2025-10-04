@@ -1,11 +1,13 @@
-main:
+pt-BR:
   - title: "Início"
-    section: header
+    section: "home"
   - title: "Serviços"
-    section: services
+    section: "services"
   - title: "Portfólio"
-    section: portfolio
+    section: "portfolio"
   - title: "Sobre"
-    section: about
+    section: "about"
+  - title: "Linha do tempo"
+    section: "timeline"
   - title: "Contato"
-    section: contact
+    section: "contact"
