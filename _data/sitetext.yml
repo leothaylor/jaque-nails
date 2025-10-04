@@ -1,58 +1,35 @@
 pt-BR:
-  header:
-    title: "Jaqueline Lopes – Nail Designer"
-    text: "Unhas bonitas elevam a autoestima."
-    button: "Agendar agora"
-    buttonlink: "https://api.whatsapp.com/send?phone=5521967671257"
-
   services:
     title: "SERVIÇOS"
-    text: "Especialista em Fibra de Vidro e cuidados com as unhas."
-    section: "services"
+    text: "Especialista em Fibra de Vidro e blindagem."
+    section: services
     list:
-      - title: "Fibra de Vidro (Formato Europeu)"
-        desc: "Alongamento resistente, fino e natural."
-        icon: "gem"     # ícones FontAwesome do tema
-      - title: "Blindagem na Unha Natural"
-        desc: "Proteção e nivelamento para fortalecer a placa natural."
+      - title: "Fibra de Vidro"
+        desc: "Alongamento resistente e natural."
+        icon: "gem"
+      - title: "Blindagem"
+        desc: "Proteção e brilho na unha natural."
         icon: "shield-alt"
-      - title: "Tons Terrosos / Nude"
-        desc: "Acabamento elegante, com brilho impecável."
-        icon: "palette"
 
   portfolio:
     title: "PORTFÓLIO"
     text: "Alguns resultados recentes."
-    section: "portfolio"
-    closebutton: "Fechar"
+    section: portfolio
 
   about:
-    title: "SOBRE MIM"
+    title: "SOBRE"
     text: "Cuidado, técnica e higiene em primeiro lugar."
-    section: "about"
+    section: about
     body: >
-      Sou Nail Designer especialista em **Fibra de Vidro**.  
-      Atendo com foco em acabamento natural e durabilidade, sempre
-      priorizando a saúde das unhas e a satisfação da cliente.
+      Jaqueline Lopes é Nail Designer no JJD Studio Beauty, especialista em fibra de vidro.
 
   timeline:
     title: "Linha do tempo"
     text: ""
-    section: "timeline"
+    section: timeline
 
   contact:
     title: "CONTATO"
     text: "Agende seu horário:"
-    section: "contact"
+    section: contact
     phone: "(21) 96767-1257"
-    email: ""
-    whatsapp_button: "WhatsApp"
-    whatsapp_link: "https://api.whatsapp.com/send?phone=5521967671257"
-
-  footer:
-    legal: "© Jaqueline Lopes"
-    social:
-      - url: "https://www.instagram.com/unhasporjaquelopes/"
-        icon: "fab fa-instagram"
-      - url: "https://api.whatsapp.com/send?phone=5521967671257"
-        icon: "fab fa-whatsapp"
