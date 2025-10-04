@@ -1,0 +1,25 @@
+# ============================================================
+# Portfólio – Jaqueline Lopes | Nail Designer
+# ============================================================
+
+- title: "Blindagem na unha natural"
+  category: "Técnica de reforço"
+  description: "Proteção e resistência adicional sobre a unha natural, ideal para quem busca durabilidade sem alongamento."
+  image: "assets/img/portfolio/01-full.jpg"
+  thumb: "assets/img/portfolio/01-thumbnail.jpg"
+
+- title: "Fibra de vidro formato europeu"
+  category: "Alongamento e formato"
+  description: "Alongamento com fibra de vidro em formato europeu, que combina elegância, curvatura suave e resistência."
+  image: "assets/img/portfolio/02-full.jpg"
+  thumb: "assets/img/portfolio/02-thumbnail.jpg"
+
+- title: "Fibra de vidro tons terrosos"
+  category: "Design sofisticado"
+  description: "Combinação de tons terrosos e linhas artísticas, criando um visual moderno, natural e requintado."
+  image: "assets/img/portfolio/03-full.jpg"
+  thumb: "assets/img/portfolio/03-thumbnail.jpg"
+
+# ============================================================
+# Fim do portfólio
+# ============================================================
