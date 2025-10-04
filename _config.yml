@@ -1,22 +1,24 @@
 title: "Jaqueline Lopes — Nail Designer"
+email: ""
+description: "Especialista em Fibra de Vidro e Blindagem"
+lang: "pt-BR"
+
 url: "https://leothaylor.github.io"
-baseurl: "/jaque-nails"      # <- MUITO IMPORTANTE
-locale: "pt-BR"
+baseurl: "/jaque-nails"   # <- MUITO IMPORTANTE
 
-theme: jekyll-theme-primer
+# Tema Agency
+remote_theme: raviriley/agency-jekyll-theme@v2.2.0
 
-# Plugins padrão do Pages (não mude)
+# Plugins suportados no GitHub Pages
 plugins:
+  - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
 
-# Caso o tema/partials usem esses dados
-description: "Especialista em Fibra de Vidro e blindagem. JJD Studio Beauty."
+markdown: kramdown
+
+exclude:
+  - node_modules
+  - vendor
+  - Gemfile
+  - Gemfile.lock
