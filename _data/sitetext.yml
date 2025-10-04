@@ -1,7 +1,7 @@
 pt-BR:
   services:
     title: "SERVIÇOS"
-    text: "Especialista em Fibra de Vidro e blindagem."
+    text: "Especialista em Fibra de Vidro e Blindagem."
     section: services
     list:
       - title: "Fibra de Vidro"
@@ -18,7 +18,7 @@ pt-BR:
 
   about:
     title: "SOBRE"
-    text: "Cuidado, técnica e higiene em primeiro lugar."
+    text: ""
     section: about
     body: >
       Jaqueline Lopes é Nail Designer no JJD Studio Beauty, especialista em fibra de vidro.
