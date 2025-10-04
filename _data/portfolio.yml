@@ -1,23 +1,42 @@
-- title: "Blindagem na unha natural"
-  subtitle: "Proteção e brilho duradouros"
-  category: "Blindagem"
-  image: assets/img/portfolio/01-thumbnail.jpg
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
-  large: assets/img/portfolio/01-full.jpg
-  alt: "Blindagem na unha natural"
+# _data/portfolio.yml
 
-- title: "Fibra de vidro — formato europeu"
-  subtitle: "Alongamento elegante e resistente"
-  category: "Fibra de Vidro"
-  image: assets/img/portfolio/02-thumbnail.jpg
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
-  large: assets/img/portfolio/02-full.jpg
-  alt: "Fibra de vidro — formato europeu"
+items:
+  - id: 1
+    title: "Blindagem na unha natural"
+    subtitle: "Proteção e brilho duradouros"
+    category: "Blindagem"
+    thumbnail: assets/img/portfolio/01-thumbnail.jpg
+    full: assets/img/portfolio/01-full.jpg
 
-- title: "Fibra de vidro — tons terrosos"
-  subtitle: "Nude/terroso com acabamento clássico"
-  category: "Fibra de Vidro"
-  image: assets/img/portfolio/03-thumbnail.jpg
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
-  large: assets/img/portfolio/03-full.jpg
-  alt: "Fibra de vidro — tons terrosos"
+  - id: 2
+    title: "Fibra de vidro – formato europeu"
+    subtitle: "Alongamento elegante e resistente"
+    category: "Fibra de Vidro"
+    thumbnail: assets/img/portfolio/02-thumbnail.jpg
+    full: assets/img/portfolio/02-full.jpg
+
+  - id: 3
+    title: "Fibra de vidro – tons terrosos"
+    subtitle: "Nude/terroso com acabamento clássico"
+    category: "Fibra de Vidro"
+    thumbnail: assets/img/portfolio/03-thumbnail.jpg
+    full: assets/img/portfolio/03-full.jpg
+
+modals:
+  - id: 1
+    client: "Jaqueline Lopes"
+    description: "Blindagem que fortalece e dá brilho às unhas naturais, com acabamento resistente."
+    category: "Blindagem"
+    img: assets/img/portfolio/01-full.jpg
+
+  - id: 2
+    client: "Jaqueline Lopes"
+    description: "Alongamento em fibra de vidro com acabamento no padrão europeu."
+    category: "Fibra de Vidro"
+    img: assets/img/portfolio/02-full.jpg
+
+  - id: 3
+    client: "Jaqueline Lopes"
+    description: "Alongamento em fibra de vidro em paleta de tons terrosos e brilho sutil."
+    category: "Fibra de Vidro"
+    img: assets/img/portfolio/03-full.jpg
